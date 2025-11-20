@@ -22,7 +22,7 @@ This solution uses the **Gemini 2.5 Flash** model (via Google's `google-genai` A
     *   **Windows (cmd):** `set GEMINI_API_KEY="YOUR_KEY_HERE"`
     *   When setting the API KEY remove the ("")
 
-### Running the Demo Locally (Deliverable #2 Pre-Check)
+### Running the Demo Locally 
 1.  Ensure the API key is set in your current terminal session.
 2.  Run the Streamlit application:
     ```bash
