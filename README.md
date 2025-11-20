@@ -6,6 +6,7 @@ To design and implement an AI-backed solution that transforms content from an un
 ## 🚀 Solution Architecture
 This solution uses the **Gemini 2.5 Flash** model (via Google's `google-genai` API) in a multimodal context to directly process the PDF file. The LLM is instructed via a highly aggressive prompt to extract all facts into a rigid Markdown table format, bypassing brittle JSON schema issues. The Streamlit web application then parses the Markdown table and generates a final Excel file with auto-fitted columns.
 
+## The Project is currently live [here](entic-ai-jmu9eghakux4evhv9mgvvu.streamlit.app)
 ## 🛠️ Local Setup & Usage
 
 ### Prerequisites
